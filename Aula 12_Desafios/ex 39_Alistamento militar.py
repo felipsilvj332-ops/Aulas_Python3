@@ -18,6 +18,7 @@ if idade < 18:
 elif idade == 18:
     print("O candidato possui a idade requerida e devera se apresentar no quartel mais proximo!")
 elif idade > 18:
-    print("O candidato possui idade superior ao minimo exigido!")
+    atraso = idade - 18
+    print(f"O candidato possui idade superior ao minimo exigido! esta {atraso} atrasado")
 
 
